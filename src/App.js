@@ -2,9 +2,41 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+const people = [
+    {
+        name: 'Alan',
+        programmingLanguage: 'Swift',
+    },
+    {
+        name: 'Azim',
+        programmingLanguage: 'Javascript',
+    },
+    {
+        name: 'Becky',
+        programmingLanguage: 'Kotlin',
+    },
+    {
+        name: 'James',
+        programmingLanguage: 'Swift',
+    },
+    {
+        name: 'Jesse',
+        programmingLanguage: 'Kotlin',
+    },
+    {
+        name: 'Jin',
+        programmingLanguage: 'Swift',
+    },
+    {
+        name: 'Joshua',
+        programmingLanguage: 'Swift',
+    },
+];
+
 class App extends Component {
+
   render() {
-    return (
+      return (
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
